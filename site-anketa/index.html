@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Лингвистический опрос</title>
+	<style>
+   	body {
+    	background: #FFC0CB; /* Цвет фона */
+    	color: #000000; /* Цвет текста */
+   	}
+  	</style>
+    </head>
+<body>
+<form action = "http://127.0.0.1:5000/" method = 'POST'>
+	<fieldset>	
+	<h1>Лингвистический опрос.</h1>
+	<p>Привет! Я прошу тебя поучавствовать в небольшом лингвистическом опросе. </p>
+	<p>Прежде чем мы начнём, пожалуйста, заполни эту анкету: </p>
+    <form action="">
+        <p><b>Как тебя зовут?</b> <input type="text" name="username" value=""></p>
+        <p><b>Сколько тебе лет?</b> <input type="text" name="age" value=""></p>
+	<p><b>Какого ты пола?</b></p>
+    	<input type="radio" name="gender" value="man">Мужского<br>
+    	<input type="radio" name="gender" value="women">Женского<br>
+	<p><input type="submit"></p>
+	<p><b>Ты лингвист?</b></p>
+    	<input type="radio" name="ling" value="yes">Лингвист<br>
+    	<input type="radio" name="ling" value="no">Не лингвист<br>
+	<p><input type="submit"></p>
+	<p>Собственно, сам опрос:</p>
+	<p><b>Что это?</b></p>
+	<img src="sushka.jpg" />
+    	<p><input type="radio" name="one" value="sushka">Сушка<br>
+    	<input type="radio" name="one" value="sushilka">Сушилка<br></p>
+	<p><input type="submit"></p>
+	<p><b>Что это?</b></p>
+	<img src="otkrivashka.jpg" />
+    	<p><input type="radio" name="two" value="otkrivashka">Открывашка<br>
+    	<input type="radio" name="two" value="otkrivalka">Открывалка<br></p>
+	<p><input type="submit"></p>
+	<p><b>Что это?</b></p>
+	<img src="salatnik.jfif" />
+    	<p><input type="radio" name="three" value="salatnik">Салатник<br>
+    	<input type="radio" name="three" value="salatnitsa">Салатница<br></p>
+	<p><input type="submit"></p>
+	</fieldset>
+	
+       
+    </form>
+    </body>
+</html>
